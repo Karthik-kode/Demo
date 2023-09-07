@@ -1,0 +1,387 @@
+<html>
+
+<head>
+    <title>Jin page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jin_project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="test_2.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- row -->
+        <div class="row">
+            <!-- col grid 2 -->
+            <div class="col-2">
+                <!-- css navbar -->
+                <div class="sidebar">
+                    <ul class="unorder">
+                        <li class="order"><img src="jman.png" alt="jman"></li>
+                        <li class="order"><a href="#">Dashboard</a></li>
+                        <li class="order"><a href="#">Timesheet</a></li>
+                        <li class="order"><a href="#">Projects</a></li>
+                        <div class="dropdown">
+                            <a class="btn  dropdown-a" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Leave
+
+                            </a>
+                            <i class="bi bi-chevron-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">hi</a></li>
+                                <li><a class="dropdown-item" href="#">hello</a></li>
+                            </ul>
+                        </div>
+                        <li class="order"><a href="#">Work From Home </a></li>
+                        <div class="dropdown">
+                            <a class="btn dropdown-a" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Approvals
+                            </a>
+                            <i class="bi bi-chevron-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">hi</a></li>
+                                <li><a class="dropdown-item" href="#">hello</a></li>
+                            </ul>
+                        </div>
+                        <li class="order"><a href="#">Survey</a></li>
+                        <li class="order"><a href="#">Service Desk</a></li>
+                        <li class="order"><a href="#">Forms</a></li>
+                        <li class="order"><a href="#">Travel</a></li>
+                        <li class="order"><a href="#">Expenses</a></li>
+                        <div class="dropdown">
+                            <a class="btn dropdown-a" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Settings
+                            </a>
+                            <i class="bi bi-chevron-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">hi</a></li>
+                                <li><a class="dropdown-item" href="#">hello</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <a class="btn dropdown-a" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Control Panel
+                            </a>
+                            <i class="bi bi-chevron-down"></i>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">hi</a></li>
+                                <li><a class="dropdown-item" href="#">hello</a></li>
+                            </ul>
+                        </div>
+                        <li class="order"><a href="#">Resourcing</a></li>
+                        <li class="order"><a href="#">Access Control</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- col grid 11 -->
+            <div class="col-10">
+                <div class="row">
+                    <h2>Timesheet</h2>
+                    <div class="heading-container">
+                        <h4>Total Hours: 8.0</h4>
+                        <h4>
+                            <14Aug 2023-20 Aug 2023></14Aug>
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="accordion" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button btn-color" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Allocation Extension
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="table-responsive">
+                                        <table class="table tableone">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col">Project name</th>
+                                                    <th class="col">Project type</th>
+                                                    <th class="col">Project end date</th>
+                                                    <th class="col">Allocation end date</th>
+                                                    <th class="col">Allocation extension</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="col">JMG_163 Our Clients</td>
+                                                    <td class="col">Internal Project</td>
+                                                    <td class="col">31-12-2023</td>
+                                                    <td class="col">31-12-2023</td>
+                                                    <td class="col in-col">
+                                                        <input type="text" placeholder="Date of Extension">
+                                                        <i class="bi bi-calendar"></i>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col">OEM_001 Guna Int - 180medical - Mobile Applicaton
+                                                        build (LV/AD/YS)</td>
+                                                    <td class="col">Client Project</td>
+                                                    <td class="col">23-08-2023</td>
+                                                    <td class="col">23-08-2023</td>
+                                                    <td class="col in-col">
+                                                        <input type="text" placeholder="Date of Extension">
+                                                        <i class="bi bi-calendar"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="5">
+                                                        <button class="btn request-btn" type="button">REQUEST <i
+                                                                class="bi bi-arrow-right"></i></button>
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row3">
+                    <h2>Timesheet</h2>
+                    <div class="table-responsive">
+                        <table class="table tabletwo" id="table_2">
+                            <thead>
+                                <tr>
+                                    <th class="col col1">Project Type</th>
+                                    <th class="col col1">Project Name</th>
+                                    <th class="col col1">Task</th>
+                                    <th class="col col1">Comment</th>
+                                    <th class="col col2">Mon 14</th>
+                                    <th class="col col2">Tue 15</th>
+                                    <th class="col col2">Wed 16</th>
+                                    <th class="col col2">Thu 17</th>
+                                    <th class="col col2">Fri 18</th>
+                                    <th class="col col2">Sat 19</th>
+                                    <th class="col col2">Sun 20</th>
+                                    <th class="col col2">Total</th>
+                                    <th class="col col3"></th>
+                                    <th class="col col3"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="tr-tabletwo">
+                                    <td class="col pname" id="col0" >BAU Activity</td>
+                                    <td class="col" id="col1">
+                                        <select name="BAU-Project-name" id="BAU-Project-name" class="in-tabletwo">
+                                            <option value="Project">Project</option>
+                                            <option value="Project">Project</option>
+                                        </select>
+                                    </td>
+                                    <td class="col" id="col2">
+                                        <select name="BAU-Task" id="BAU-Task" class="in-tabletwo">
+                                            <option value="Public & Relation">Public & Relation</option>
+                                            <option value="Public & Relation">Public & Relation</option>
+                                        </select>
+                                    </td>
+                                    <td class="col" id="col3">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col4">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col5">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col6">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col7">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col8">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col9">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col10">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col" id="col11">
+                                        <input type="text" class="in-tabletwo">
+                                        <p>Sum: <span id="sum">0</span></p>
+                                    </td>
+                                    <td class="col" id="col12"><button onclick="addrow1()" class="in-tabletwo">+</button></td>
+                                    <td class="col" id="col13"><button onclick="deleteRow(this)" class="in-tabletwo">-</button></td>
+                                </tr>
+                                <!-- <tr class="tr-tabletwo">
+                                    <td class="col pname">BAU Activity</td>
+                                    <td class="col">
+                                        <select name="BAU-Project-name" id="BAU-Project-name" class="in-tabletwo">
+                                            <option value="Project">Project</option>
+                                            <option value="Project">Project</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <select name="BAU-Task" id="BAU-Task" class="in-tabletwo">
+                                            <option value="Public & Relation">Public & Relation</option>
+                                            <option value="Public & Relation">Public & Relation</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">+</td>
+                                </tr>
+                                <tr class="tr-tabletwo">
+                                    <td class="col pname">BAU Activity</td>
+                                    <td class="col">
+                                        <select name="BAU-Project-name" id="BAU-Project-name" class="in-tabletwo">
+                                            <option value="Project">Project</option>
+                                            <option value="Project">Project</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <select name="BAU-Task" id="BAU-Task" class="in-tabletwo">
+                                            <option value="Public & Relation">Public & Relation</option>
+                                            <option value="Public & Relation">Public & Relation</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">+</td>
+                                </tr>
+                                <tr class="tr-tabletwo">
+                                    <td class="col pname">BAU Activity</td>
+                                    <td class="col">
+                                        <select name="BAU-Project-name" id="BAU-Project-name" class="in-tabletwo">
+                                            <option value="Project">Project</option>
+                                            <option value="Project">Project</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <select name="BAU-Task" id="BAU-Task" class="in-tabletwo">
+                                            <option value="Public & Relation">Public & Relation</option>
+                                            <option value="Public & Relation">Public & Relation</option>
+                                        </select>
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">
+                                        <input type="text" class="in-tabletwo">
+                                    </td>
+                                    <td class="col">+</td>
+                                </tr> -->
+                                <tr class="tr-last">
+                                    <td>Total Hour</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row4">
+                        <button class="btn save-btn" type="button">SAVE</button>&nbsp;
+                        <button class="btn submit-btn" type="button">SUBMIT <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
